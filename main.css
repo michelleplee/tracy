@@ -1,0 +1,70 @@
+body{
+	font-family: 'Press Start 2P', cursive;
+	color: #000;
+ 
+ 
+    position: relative;
+}
+
+#container{
+	width:375px;
+    height: 667px;
+	margin: auto;
+	padding: 20px;
+    background-image: url("images/background-13.svg");
+    background-size:  100%;
+    background-repeat: no-repeat;
+}
+
+
+#quoteContainer{
+    font-size: 12px;
+	width:375px;
+   padding: 10px 10px 10px 0px;
+	margin:auto;
+    margin-top: 460px;
+	text-align: center;
+  height:80px;
+    line-height: 25px;
+    background-color: rgba(255,255,255,0.8);
+}
+
+#buttonContainer{
+    margin-top: 20px;
+	width: 375px;
+    border:2px dotted black;
+	text-align: center;
+    background-color: white;
+}
+#quoteButton{
+	width:200px;
+	margin: 10px;
+	color:#000;
+	font-family: inherit;
+	font-weight: bold;
+	padding:5px;
+
+	text-decoration: none;
+	text-align: center;
+}
+
+#buttonContainer:hover{
+	cursor:pointer;
+	background:#09c;
+	color: #fff;	
+}
+#quoteButton:active{
+	cursor: pointer;
+}
+#quoteButton:visited{
+	color: #000
+}
+#quoteButton{
+	display: inline-block;
+}
+
+#footer {
+ font-size: 10px;
+    text-align:  center;
+        line-height: 15px;
+}
